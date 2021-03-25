@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculaJuros.WebApi", "CalculaJuros.WebApi\CalculaJuros.WebApi.csproj", "{C81BE30B-C799-4969-8EC2-A3D7A58F2F4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculaJuros.Application", "CalculaJuros.Application\CalculaJuros.Application.csproj", "{6439561F-A626-4407-B12D-F38D2493204A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculaJuros.Infrastructure", "CalculaJuros.Infrastructure\CalculaJuros.Infrastructure.csproj", "{EB9D8EBE-7E78-4DE7-96F7-695216315AFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C81BE30B-C799-4969-8EC2-A3D7A58F2F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81BE30B-C799-4969-8EC2-A3D7A58F2F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81BE30B-C799-4969-8EC2-A3D7A58F2F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81BE30B-C799-4969-8EC2-A3D7A58F2F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6439561F-A626-4407-B12D-F38D2493204A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6439561F-A626-4407-B12D-F38D2493204A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6439561F-A626-4407-B12D-F38D2493204A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6439561F-A626-4407-B12D-F38D2493204A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9D8EBE-7E78-4DE7-96F7-695216315AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9D8EBE-7E78-4DE7-96F7-695216315AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9D8EBE-7E78-4DE7-96F7-695216315AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9D8EBE-7E78-4DE7-96F7-695216315AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FF0CD9C-90D2-4021-9615-569BB1EB4F04}
+	EndGlobalSection
+EndGlobal

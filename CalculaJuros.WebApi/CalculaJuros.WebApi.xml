@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculaJuros.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:CalculaJuros.WebApi.Controllers.CalculoJurosController.Get(CalculaJuros.Application.Dto.CalculaJurosRequestDto)">
+            <summary>
+            Calcular juros
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

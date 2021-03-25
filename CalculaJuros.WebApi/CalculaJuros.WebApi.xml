@@ -4,9 +4,15 @@
         <name>CalculaJuros.WebApi</name>
     </assembly>
     <members>
-        <member name="M:CalculaJuros.WebApi.Controllers.CalculoJurosController.Get(CalculaJuros.Application.Dto.CalculaJurosRequestDto)">
+        <member name="M:CalculaJuros.WebApi.Controllers.HomeController.Get(CalculaJuros.Application.Dto.CalculaJurosRequestDto)">
             <summary>
-            Calcular juros
+            Calcula juros
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CalculaJuros.WebApi.Controllers.HomeController.GetUrl">
+            <summary>
+            Busca url do projeto no GitHub
             </summary>
             <returns></returns>
         </member>

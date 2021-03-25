@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using CalculaJuros.Application.Dto;
 using CalculaJuros.Application.Reposistory;
 
-namespace CalculaJuros.Application.UseCases
+namespace CalculaJuros.Application.UseCases.CalculaJuros
 {
     public class CalculaJurosUseCase : ICalculaJurosUseCase
     {

@@ -5,7 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.PlatformAbstractions;
 using System.IO;
-using CalculaJuros.Application.UseCases;
+using CalculaJuros.Application.UseCases.CalculaJuros;
+using CalculaJuros.Application.UseCases.BuscaUrlGit;
 using CalculaJuros.Application.Reposistory;
 using CalculaJuros.Infrastructure.Repository;
 
@@ -27,6 +28,7 @@ namespace CalculaJuros.WebApi
 
             services.AddTransient<ICalculaJurosUseCase, CalculaJurosUseCase>();
             services.AddTransient<ICalculaJurosRepository, CalculaJurosRepository>();
+            services.AddTransient<IBuscaUrlGitUseCase, BuscaUrlGitUseCase>();
 
             services.AddSwaggerGen(c =>
             {

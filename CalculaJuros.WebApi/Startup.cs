@@ -69,7 +69,7 @@ namespace CalculaJuros.WebApi
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Taxa");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API calculo juros composto");
             });
 
         }

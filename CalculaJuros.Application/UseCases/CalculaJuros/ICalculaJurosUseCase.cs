@@ -5,6 +5,6 @@ namespace CalculaJuros.Application.UseCases.CalculaJuros
 {
     public interface ICalculaJurosUseCase
     {
-        Task<ResultDto<CalculaJurosResponseDto>> Execute(CalculaJurosRequestDto request);
+        Task<ResultDto<CalculaJurosResponseDto>> Execute(decimal valorInicial, int tempo);
     }
 }

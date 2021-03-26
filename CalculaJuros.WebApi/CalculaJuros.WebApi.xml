@@ -4,16 +4,21 @@
         <name>CalculaJuros.WebApi</name>
     </assembly>
     <members>
-        <member name="M:CalculaJuros.WebApi.Controllers.HomeController.Get(CalculaJuros.Application.Dto.CalculaJurosRequestDto)">
+        <member name="M:CalculaJuros.WebApi.Controllers.HomeController.Get(System.Decimal,System.Int32)">
             <summary>
-            Calcula juros
+            Calcula juros composto
             </summary>
+            <param name="tempo">em meses</param>
             <returns></returns>
+            <remarks>
+            <para>Este método tem o objetivo de calcular o valor do juros composto.</para>
+            </remarks>
         </member>
         <member name="M:CalculaJuros.WebApi.Controllers.HomeController.GetUrl">
             <summary>
-            Busca url do projeto no GitHub
+            Urls projetos
             </summary>
+            <remarks>Este método de como objetivo retornar as urls dos projeto no GitHub.</remarks>
             <returns></returns>
         </member>
     </members>
